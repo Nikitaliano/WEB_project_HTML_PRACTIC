@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>
+		ЧЕРНЯЕВСКИЙ ПРОЕКТ
+	</title>
+	<link rel="stylesheet" href="CSS/style.css">
+	 <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+
+<script>
+    let currentSlide = 1;
+    let interval; 
+
+    function changeSlide() {
+        currentSlide = (currentSlide % 4) + 1; 
+        document.getElementById(`slide${currentSlide}`).checked = true; 
+        
+        if (currentSlide === 1) {
+            clearInterval(interval); 
+            interval = setInterval(changeSlide, 1);
+        } else {
+            clearInterval(interval);
+            interval = setInterval(changeSlide, 5000); 
+        }
+    }
+
+    setTimeout(() => {
+        changeSlide();
+        interval = setInterval(changeSlide, 5000); 
+    }, 1); 
+</script>
+
+
+
+
+
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+	
+</head>
+	<body>	
+		<div class="page">
+			<header>
+				<div class="up">
+					<div class="up_left">				
+						<div class="country">
+							<a href="">
+								<span>
+								Москва
+							</span>
+							</a>
+							
+						</div>
+						<div class="block_phone">
+							<span class="phone">
+							8 800 550 83 13
+						</span>
+						<a href="">
+							<span class="phone1">
+							Заказать звонок
+						</apsn>
+						</a>
+						
+						</div>
+						
+					</div>
+					<div class="up_right">
+						<div class="enter">
+							<a href="#">
+								<span>
+									Вход и Регистрация
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="down">
+
+					<div class="advantshop">
+						<img src="IMG/advantshop.png" alt="">
+					</div>
+
+					<div class="pl">
+
+						<div class="lupa">
+							<div class="lupa2">
+							</div>
+						</div>
+
+						<input class="inp" placeholder="Поиск по товарам" class="search" type="text">
+					</div>
+					
+					<div class="heart">
+						<button class="cicle">
+							2
+						</button>
+						<div class="icoo">
+							<div class="lili1">
+								<a href="">
+									<img src="IMG/3.png" alt="">
+								</a>
+							</div>
+							<div class="lili2">
+								<a href="">
+									<img src="IMG/cc.png" alt="">
+								</a>
+							</div>
+							<div class="lili3">
+								<a href="">
+									<img src="IMG/bb.png" alt="">
+								</a>
+							</div>
+
+							
+						</div>
+						<div class="dump">
+								<a href="i2.html">
+									Корзина
+								</a>
+							</div>
+
+					</div>
+
+				</div>
+			</header>
+
+			<main class="main1">
+				<nav class="navigation22">
+					<img src="IMG/бургер.png" alt="">
+					<span>
+						Каталог товаров
+					</span>
+				</nav>
+				<div class="navi">
+					<ul class="choice">
+						<li>
+
+							<a href="#" >
+								<span>
+									О магазине
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span>
+									Скидки
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span>
+									Доставка и оплата
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span>
+									Услуги
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span>
+									Акции
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span>
+									Блог
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span>
+									Контакты
+								</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="ninja" id="fuck">
+					<div class="vis-ninja">
+						<div class="more-vis">
+							<ul>
+							<li>
+								<a href="">
+									Возможности
+								</a>
+							</li>
+							<li>
+								<a href="">
+									Цены
+								</a>
+							</li>
+							<li>
+								<a href="">
+									Партнёры
+								</a>
+							</li>
+							<li>
+								<a href="">
+									Шаблоны
+								</a>
+							</li>
+							<li>
+								<a href="">
+									Модули
+								</a>
+							</li>
+							<li>
+								<a href="">
+									Услуги
+								</a>
+							</li>
+							<li>
+								<a href="">
+									Интеграции
+								</a>
+							</li>
+						</ul>
+						</div>
+						
+					</div>
+				</div>
+
+
+				<nav class="big">
+					<div class="big0">
+					  <div class="big1">
+						<div>
+							<a href="#">
+								<span>
+									Одежда
+								</span>
+							</a>
+						</div>
+						<div>
+							<a href="#">
+								<span>
+									Мебель
+								</span>
+							</a>
+						</div>
+						<div>
+							<a href="#">
+								<span>
+									Бытовая техника
+								</span>
+							</a>
+						</div>
+						<div>
+							<a href="#">
+								<span>
+									Спортивные товары
+								</span>
+							</a>
+						</div>
+						<div>
+							<a href="#">
+								<span>
+									Косметика 
+								</span>
+							</a>
+						</div>
+						<div>
+							<a href="#">
+								<span>
+									Садовая техника
+								</span>
+							</a>
+						</div>
+						<div>
+							<a href="#">
+								<span>
+									Сантехника
+								</span>
+							</a>
+						</div>
+						<div>
+							<a href="#">
+								<span>
+									Строительные материалы
+								</span>
+							</a>
+						</div>
+						<div>
+							<a href="#">
+								<span>
+									Автотехника
+								</span>
+							</a>
+						</div>
+						<div>
+							<a href="#">
+								<span>
+									Еда
+								</span>
+							</a>
+						</div>
+						<div>
+							<a href="#">
+								<span>
+									Разработка сайтов
+								</span>
+							</a>
+						</div>
+					  </div>
+					</div>
+				</nav>
+
+
+
+				
+					<div class="pictures">
+
+						<button id="idImageBtn" style="border-radius: 50%" class="prev">
+							<img src="IMG/left.png" alt="">
+						</button>
+
+						<button id="idImageBtn1"  style="border-radius: 50%"  class="next">
+							<img src="IMG/right.png" alt="">
+						</button>
+
+						
+
+
+<div class="slider">
+    <input type="radio" name="slider" id="slide1" checked>
+    <input type="radio" name="slider" id="slide2">
+    <input type="radio" name="slider" id="slide3">
+    <input type="radio" name="slider" id="slide4">
+
+    <div class="slides">
+        <div class="slide slide1">
+            <img src="IMG/slide1.jpg" alt="Слайд 1">
+        </div>
+        <div class="slide slide2">
+            <img src="IMG/slide2.jpg" alt="Слайд 2">
+        </div>
+        <div class="slide slide3">
+            <img src="IMG/slide3.jpg" alt="Слайд 3">
+        </div>
+        <div class="slide slide4">
+            <img src="IMG/slide1.jpg" alt="Слайд 1">
+        </div>
+    </div>
+
+    <div class="navigation">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+        <label for="slide4"></label>
+    </div>
+</div>
+						
+				</div>
+
+
+
+					<div class="lazy">
+
+						<div class="cen">
+
+							<div>
+
+							  <img src="IMG/%.png" alt="">
+							  <div class="two">
+								 <span>
+									 Акции и скидки для постоянных клиентов
+								</span>
+							  </div>
+
+					     	</div>
+
+
+
+					     	<div class="main_three">
+
+							  <img src="IMG/Star Icon.png" alt="">
+							  <div class="three">
+								 <span>
+									 Качественные услуги
+и сервис
+								</span>
+							  </div>
+
+					     	</div>
+
+
+
+
+					     	<div class="main-four">
+
+							  <img src="IMG/Vector.png" alt="">
+							  <div class="four">
+								 <span>
+									 Широкий ассортимент 
+товаров
+								</span>
+							  </div>
+
+					     	</div>
+						
+					    </div>
+					</div>
+
+
+
+
+
+					<div class="bullshit">
+
+						<div class="news">
+							<h2 class="n_f">Статьи</h2>
+							<div class="bl">
+								<a href="">
+									<h3>Меган Фокс в апрельском номере журнала Jalouse 03</h3>
+								</a>
+								<span>
+								03 апреля 2015
+								</span>
+								<a href="">
+									<h3>Состоялся показ Armani Prive на Неделе высокой моды в Париже</h3>
+								</a>
+								<span>
+								11 марта 2015
+								</span>
+								<a href="">
+									<h3>Облачные перспективы Windows-8</h3>
+								</a>
+								<span>
+
+								11 февраля 2015
+								</span>
+								<br>
+								<a href="" class="last1">Все новости</a>
+							</div>
+						</div>
+
+
+
+
+						<div class="status">
+							
+							<span>
+								Проверить статус заказа
+							</span>
+
+							<input placeholder="Введите номер заказа" type="text">
+							<button>
+								Проверить
+							</button>
+
+
+						</div>
+
+
+						<div class="ask">
+							<span class="ask1">Опрос</span>
+							<br/>
+							<span class="ask2">Как вам новый дизайн?</span>
+							<br/>
+							<input type="radio" name="r" value="r1" class="rr1"> 
+							<input type="radio" name="r" value="r2" class="rr2"> 
+							<input type="radio" name="r" value="r3" class="rr3"> 
+
+							<button>
+								Голосовать
+							</button>
+						</div>
+
+
+
+						<div class="vk">
+							<div>
+								<img src="IMG/image 4.png" alt="">
+							</div>
+						</div>
+						
+					</div>
+
+					<div class="Category">
+						<h2 class="popular">
+							Популярные Категории
+						</h2>
+
+						<div class="topp">
+							<a href="">
+								<img src="IMG/image 13.png" alt="">
+								<span>
+									Одежда
+								</span>
+							</a>
+							<a href="">
+								<img src="IMG/image 12.png" alt="">
+								<span>
+									Мебель
+								</span>
+							</a>
+							<a href="">
+								<img src="IMG/image 14.png" alt="">
+								<span>
+									Бытовая техника
+								</span>
+							</a>
+							<a href="">
+								<img src="IMG/image 11.png" alt="">
+								<span>
+									Спортивные товары
+								</span>
+							</a>
+							<a href="">
+								<img src="IMG/6002171190 2.png" alt="">
+								<span>
+									Косметика
+								</span>
+							</a>
+							<a href="">
+								<img src="IMG/image 15.png" alt="">
+								<span>
+									Садовая техника
+								</span>
+							</a>
+
+						</div>
+
+
+						<div class="news1">
+							<h2>
+								Новинки
+							</h2>
+							<a href="">
+								посмотреть все новинки
+							</a>
+
+							
+							<button class="pa-paa">
+								<img src="IMG/left.png" alt="" style="border-radius: 50%">
+							</button>
+
+							<button class="pa-paa2">
+								<img src="IMG/right.png" alt="" style="border-radius: 50%">
+							</button>
+
+							<div class="picture1">
+								<a href="">
+									<img src="IMG/image 18.png" alt="">
+								</a>
+								
+							</div>
+							<div class="picture2">
+								<a href="">
+									<img src="IMG/image 19.png" alt="">
+								</a>
+								
+							</div>
+							<div class="picture3">
+								<a href="">
+									<img src="IMG/image 20.png" alt="">
+								</a>
+								
+							</div>
+
+							
+
+
+							<div class="line1">
+								
+
+
+							</div>
+
+
+
+
+							<div class="Ko">
+								<a href="">
+									<span>
+										Прогулочная коляска Valco Baby Snap 4
+									</span>	
+								</a>
+								<img src="IMG/S.png" alt="">
+								<div class="here">
+									<span>
+										 В наличии
+									</span>
+								</div>
+
+								<div class="prii">
+									<span>
+										16 790 руб.
+									</span>
+								</div>
+
+								<button class="to_bucket1">
+								</button>
+								
+							</div>
+
+
+
+							<div class="Ko2">
+								<a href="">
+									<span>
+										Смартфон Xiaomi Mi 9 Lite 6/128GB
+									</span>	
+								</a>
+								<img src="IMG/S.png" alt="">
+								<div class="here2">
+									<span>
+										 В наличии
+									</span>
+								</div>
+
+								<div class="prii2">
+									<span>
+										23 600 руб.
+									</span>
+								</div>
+
+								<button class="to_bucket2">
+								</button>
+							</div>
+
+
+
+							<div class="Ko3">
+								<a href="">
+									<span>
+										Моноблок 27" Apple iMac Pro
+									</span>	
+								</a>
+								<img src="IMG/S.png" alt="">
+								<div class="here3">
+									<span>
+										 В наличии
+									</span>
+								</div>
+
+								<div class="prii3">
+									<span>
+										426 000 руб.
+									</span>
+								</div>
+
+								<button class="to_bucket3">
+								</button>
+
+
+
+							</div>
+
+
+
+
+
+						<div class="news2">
+							<div class="hit111">
+							<h2>
+								<span>
+									Хиты продаж
+								</span>
+								
+							</h2>
+							</div>
+							<div class="hh">
+								<a href="" >
+								посмотреть все хиты продаж
+								</a>
+							</div>
+							
+							<button class="pa-paa3">
+								<img src="IMG/left.png" alt="" style="border-radius: 50%">
+							</button>
+
+							<button class="pa-paa4">
+								<img src="IMG/right.png" alt="" style="border-radius: 50%">
+							</button>
+
+
+
+							<div class="picture4">
+								<a href="">
+									<img src="IMG/image 21.png" alt="">
+								</a>
+								
+							</div>
+							<div class="picture5">
+								<a href="">
+									<img src="IMG/image 22.png" alt="">
+								</a>
+								
+							</div>
+							<div class="picture6">
+								<a href="">
+									<img src="IMG/image 23.png" alt="">
+								</a>
+								
+							</div>
+
+
+							<div class="line2">
+								
+							</div>
+
+							<div class="Ko4">
+								<a href="">
+									<span>
+										Краски для сухих помещений
+									</span>	
+								</a>
+								<img src="IMG/S.png" alt="">
+								<div class="here4">
+									<span>
+										 В наличии
+									</span>
+								</div>
+
+								<div class="prii4">
+									<span>
+										16 790 руб.
+									</span>
+								</div>
+
+								<button class="to_bucket4">
+								</button>
+								
+							</div>
+
+
+
+							<div class="Ko5">
+								<a href="">
+									<span>
+										Блуза Concepti Mi 9 Lite 6/128GB
+									</span>	
+								</a>
+								<img src="IMG/S.png" alt="">
+								<div class="here5">
+									<span>
+										 В наличии
+									</span>
+								</div>
+
+								<div class="prii5">
+									<span>
+										23 600 руб.
+									</span>
+								</div>
+
+								<button class="to_bucket5">
+								</button>
+							</div>
+
+
+
+							<div class="Ko6">
+								<a href="">
+									<span>
+										Диван Лени Textile Rustic
+									</span>	
+								</a>
+								<img src="IMG/S.png" alt="">
+								<div class="here6">
+									<span>
+										 В наличии
+									</span>
+								</div>
+
+								<div class="prii6">
+									<span>
+										426 000 руб.
+									</span>
+								</div>
+
+								<button class="to_bucket6">
+								</button>
+							</div>
+
+						<div class="foo">
+							<button class="l_a">
+								<img src="IMG/left.png" alt="">
+							</button>
+							<button>
+								1
+							</button>
+							<button>
+								2
+							</button>
+							<button>
+								3
+							</button>
+							<button class="r-a">
+								<img src="IMG/right.png" alt="">
+							</button>
+
+							<div class="watched">
+								<span>
+									Вы посмотрели 24 из 1045 товаров
+								</span>
+							</div>
+							<div class="watched2">
+								<a href="">
+									Показать ещё
+								</a>
+							</div>
+						</div>
+
+
+						</div>
+
+				
+						</div>
+
+
+						<div class="too_much">
+							<div class=" tooo_much">
+								<h2>
+								INTEC:Universe LITE - интернет-магазин с конструктором дизайна на редакции 1C-Битрикс «СТАРТ»
+								</h2>	
+							</div>
+
+							<div class="round">
+									<img src="IMG/image 17.png" alt="">
+							</div>
+
+							<div class="alot">
+									<span>	
+										INTEC.UniverseLite - первый конструктор интернет-магазинов на редакции «СТАРТ» 1C-Битрикс. Решение идеально подойдет для быстрого запуска современного и многофункционального интернет-магазина на редакции «СТАРТ», без лишних расходов и привлечения сторонних специалистов. INTEC.UniverseLite может легко трансформироваться в отраслевое решение любой сферы бизнеса
+									</span>
+									<a href="">
+										подробнее
+									</a>
+							</div>
+						</div>
+
+						<div class="Posts">
+							<div class="pp">
+								<h2>
+									Статьи
+								</h2>
+							</div>
+							
+
+							<div class="pic1">
+								<img src="IMG/image 16.png" alt="">
+							</div>
+
+							<div class="pic2">
+								<img src="IMG/image 1.png" alt="">
+							</div>
+
+							<div class="pic3">
+								<img src="IMG/image 2.png" alt="">
+							</div>
+
+							<div class="uno">
+								<div class="uno_h">
+									<h3>
+										Оставьте отзыв, чтобы помочь другим 
+									</h3>
+								</div>
+
+								<div class="uno_hh">
+									<span>
+										Стильная и независимая. Легко управляйте средствами на вашем счёте. Получайте информацию о ваших финансах, платежах и переводах при помощи сообщений.
+									</span>
+								</div>
+
+
+							</div>
+
+							<div class="dos">
+								<div class="dos_h">
+									<h3>
+										Где купить терминал
+для эквайринга
+									</h3>
+								</div>
+								<div class="dos_hh">
+									<span>
+										Стильная и независимая. Легко управляйте средствами на вашем счёте. Получайте информацию о ваших финансах, платежах и переводах при помощи сообщений.
+									</span>
+								</div>
+
+
+							</div>
+
+							<div class="trua">
+								<div class="trua_h">
+									<h3>
+										Как выбрать свой идеальный телефон
+									</h3>
+								</div>
+
+								<div class="trua_hh">
+									<span>
+										Подключите автоплатёж и будьте уверены, что налог оплачен в срок. Вам не придётся тратить время на поиск суммы к уплате в личном кабинете налогоплательщика.
+									</span>
+								</div>
+
+							</div>
+						</div>
+
+						<div class="spread">
+							<div class="spr_1">
+								<h3>
+									Широкий ассортимент и высокое качество
+								</h3>
+							</div>
+
+							<div class="f-t">
+								<span>
+									Каждый из нас понимает очевидную вещь: постоянное информационно-пропагандистское обеспечение нашей <div class="mid-txt">
+										деятельности требует определения и уточнения дальнейших направлений развития. Как уже неоднократно упомянуто,
+										<span class="gr">
+											базовые сценарии поведения пользователей, которые представляют собой яркий пример континентально-европейского
+										</span> 
+										<span class="gra">
+											типа политической культуры, будут рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. 
+										</span>
+										<span class="gray">
+											Являясь всего лишь частью общей картины, непосредственные участники технического прогресса рассмотрены 
+										</span> 
+										<span class="gray1">
+											исключительно в разрезе маркетинговых и финансовых предпосылок.
+										</span>
+
+									</div>
+									
+								</span>
+							</div>
+							<a href="">
+								Читать далее
+							</a>
+						</div>
+					</div>
+
+
+
+
+
+
+					<div class="clan_foot">
+						
+						<div class="foot_blue">
+							<div class="ff">
+								<span>Подписка на новости</span>
+							</div>
+							
+							<input type="text" placeholder="Ваш e-mail">
+							<button>Подписаться</button>
+						</div>
+
+						<div class="last_block">
+							<div class="infor">
+								<div class="in1">
+									<ul>
+										<li>
+											<a href="" >
+												Каталог
+											</a>
+										</li>
+										<li>
+											<a href="">
+												Телефоны
+											</a>
+										</li>
+										<li>
+											<a href="">
+												Техника
+											</a>
+										</li>
+										<li>
+											<a href="">
+												Одежда/обувь
+											</a>
+										</li>
+										<li>
+											<a href="">
+												Детские товары
+											</a>
+										</li>
+										<li>
+											<a href="">
+												Цветы
+											</a>
+										</li>
+										<li>
+											<a href="">
+												Еда/напитки
+											</a>
+										</li>
+									</ul>
+								</div>
+								<div class="in2">
+									<ul>
+										<li>
+											<a href="">
+												Информация
+											</a>
+										</li>
+										<li>
+											<a href="">
+												О магазине
+											</a>
+										</li>
+										<li>
+											<a href="">
+												Бренды
+											</a>
+										</li>
+										<li>
+											<a href="">
+												Доставка и оплата
+											</a>
+										</li>
+										<li>
+											<a href="">
+												Блог
+											</a>
+										</li>
+										<li>
+											<a href="">
+												Бонусная программа
+											</a>
+										</li>
+										<li>
+											<a href="">
+												Контакты
+											</a>
+										</li>
+									</ul>
+								</div>
+
+								<div class="inf3">
+									<ul>
+										<li>
+											<a href="">
+												Личный кабинет
+											</a>
+										</li>
+										<li>
+											<a href="">
+												Вход
+											</a>
+										</li>
+										<li>
+											<a href="">
+												Регистрация
+											</a>
+										</li>
+										<li>
+											<a href="">
+												Забыли Пароль?
+											</a>
+										</li>
+									</ul>
+								</div>
+
+								<div class="inf4">
+									<ul>
+										<li>
+											<a href="">
+												Мы в Социальных сетях
+											</a>
+										</li>
+										<li>
+											<a href="">
+												Вконтакте
+											</a>
+										</li>
+										<li>
+											<a href="">
+												Фейсбук
+											</a>
+										</li>
+										<li>
+											<a href="">
+												Твиттер
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="lasr_im">
+								<img src="IMG/Group 28.png" alt="">
+							</div>
+						
+
+						<div class="ssj2">
+							<div class="blya">
+								<span>
+							 		© 2020 AdvantShop
+								</span>
+							</div>
+							
+
+							<div class="mark">
+								<img src="IMG/Group 5.png" alt="">
+							</div>
+
+							<div class="linker">
+								<a href="">
+									Лицензионное соглашение    Политика конфиденциальности
+								</a>
+							</div>
+						</div>
+						</div>
+					</div>
+
+
+					
+			</main>
+		</div>
+
+
+	</body>
+</html>
